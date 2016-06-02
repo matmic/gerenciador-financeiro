@@ -1,0 +1,1205 @@
+2016/05/01 02:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "base/imprimir".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('base/imprimir')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test_yii/index.php/base/imprimir
+---
+2016/05/01 02:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "base/imprimir".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('base/imprimir')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test_yii/index.php/base/imprimir
+---
+2016/05/01 02:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "base/imprimir".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('base/imprimir')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test_yii/index.php/base/imprimir
+---
+2016/05/01 03:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cadastrarNovoEstabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('cadastrarNovoEs...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cadastrarNovoEs...')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/cadastrarNovoEstabelecimento
+---
+2016/05/01 03:46:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "estabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('estabelecimento')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('estabelecimento')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/estabelecimento/cadastarEstabelecimento
+HTTP_REFERER=http://localhost/test_yii/estabelecimento/cadastrarEstabelecimento
+---
+2016/05/01 03:46:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cadastarEstabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('cadastarEstabel...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cadastarEstabel...')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/cadastarEstabelecimento
+HTTP_REFERER=http://localhost/test_yii/estabelecimento/cadastrarEstabelecimento
+---
+2016/05/01 03:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cadastarEstabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('cadastarEstabel...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('cadastarEstabel...')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/cadastarEstabelecimento
+HTTP_REFERER=http://localhost/test_yii/estabelecimento/cadastrarEstabelecimento
+---
+2016/05/01 03:47:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "estabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('estabelecimento')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('estabelecimento')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/estabelecimento/cadastrarEstabelecimento
+HTTP_REFERER=http://localhost/test_yii/estabelecimento/cadastrarEstabelecimento
+---
+2016/05/01 03:50:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "formNovoEstabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('formNovoEstabel...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formNovoEstabel...')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/formNovoEstabelecimento
+HTTP_REFERER=http://localhost/test_yii/estabelecimento/cadastrarEstabelecimento
+---
+2016/05/01 03:50:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "formNovoEstabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('formNovoEstabel...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formNovoEstabel...')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/formNovoEstabelecimento
+---
+2016/05/01 03:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "formNovoEstabelecimento".' in Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('formNovoEstabel...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('formNovoEstabel...')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test_yii/estabelecimento/formNovoEstabelecimento
+---
+2016/05/01 03:59:35 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(111): CActiveRecord->__get('id')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(209): CDataProvider->getKeys()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): CBaseListView->renderKeys()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#6 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(7): CBaseController->widget('zii.widgets.gri...', Array)
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): CController->render('listarEstabelec...', Array)
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#18 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 03:59:59 [error] [exception.CException] exception 'CException' with message 'Property "CArrayDataProvider.key" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(80): CComponent->__set('key', 'a')
+#1 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(32): CArrayDataProvider->__construct(Array, Array)
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:00:12 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(111): CActiveRecord->__get('id')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(209): CDataProvider->getKeys()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): CBaseListView->renderKeys()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#6 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(7): CBaseController->widget('zii.widgets.gri...', Array)
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(32): CController->render('listarEstabelec...', Array)
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#18 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:01:37 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(111): CActiveRecord->__get('id')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(209): CDataProvider->getKeys()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): CBaseListView->renderKeys()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#6 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(7): CBaseController->widget('zii.widgets.gri...', Array)
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): CController->render('listarEstabelec...', Array)
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#18 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:01:44 [error] [exception.CException] exception 'CException' with message 'Property "CArrayDataProvider.CodEstabelecimento" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(80): CComponent->__set('CodEstabelecime...', 'user')
+#1 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(31): CArrayDataProvider->__construct(Array, Array)
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:02:17 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.lala" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('lala')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(111): CActiveRecord->__get('lala')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(209): CDataProvider->getKeys()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): CBaseListView->renderKeys()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#6 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(7): CBaseController->widget('zii.widgets.gri...', Array)
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(34): CController->render('listarEstabelec...', Array)
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#18 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:02:24 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.tes" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('tes')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CArrayDataProvider.php(111): CActiveRecord->__get('tes')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(209): CDataProvider->getKeys()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): CBaseListView->renderKeys()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#6 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(7): CBaseController->widget('zii.widgets.gri...', Array)
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#8 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(34): CController->render('listarEstabelec...', Array)
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#18 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:04:01 [error] [php] Use of undefined constant NomeEstabelecimento - assumed 'NomeEstabelecimento' (Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent()
+#1 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(154): CDataColumn->renderDataCellContent()
+#2 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(638): CDataColumn->renderDataCell()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(622): CGridView->renderDataCell()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(578): CGridView->renderTableRow()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(488): CGridView->renderTableBody()
+#6 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#7 unknown(0): CGridView->renderSection()
+#8 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CGridView->run()
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(10): EstabelecimentoController->widget()
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#16 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): EstabelecimentoController->render()
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#18 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#20 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#21 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#22 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+in Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php (10)
+in Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php (33)
+in Z:\Programas\Xampp\htdocs\test_yii\index.php (13)
+2016/05/01 04:04:13 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.title" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\YiiBase.php(220): CComponent->__set('title', 'NomeEstabelecim...')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(10): CBaseController->widget('zii.widgets.gri...', Array)
+#6 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#7 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#8 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#10 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): CController->render('listarEstabelec...', Array)
+#11 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/05/01 04:05:37 [error] [php] Undefined index: nome (Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php:16)
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#1 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#2 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/test_yii/estabelecimento/cadastrarEstabelecimento
+in Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php (16)
+in Z:\Programas\Xampp\htdocs\test_yii\index.php (13)
+2016/05/01 04:14:51 [error] [php] Use of undefined constant NomeCategoria - assumed 'NomeCategoria' (Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent()
+#1 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(154): CDataColumn->renderDataCellContent()
+#2 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(638): CDataColumn->renderDataCell()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(622): CGridView->renderDataCell()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(578): CGridView->renderTableRow()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(488): CGridView->renderTableBody()
+#6 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#7 unknown(0): CGridView->renderSection()
+#8 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CGridView->run()
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(19): EstabelecimentoController->widget()
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#16 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): EstabelecimentoController->render()
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#18 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#20 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#21 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#22 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+in Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php (19)
+in Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php (33)
+in Z:\Programas\Xampp\htdocs\test_yii\index.php (13)
+2016/05/01 04:14:52 [error] [php] Use of undefined constant NomeCategoria - assumed 'NomeCategoria' (Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent()
+#1 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(154): CDataColumn->renderDataCellContent()
+#2 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(638): CDataColumn->renderDataCell()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(622): CGridView->renderDataCell()
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(578): CGridView->renderTableRow()
+#5 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(488): CGridView->renderTableBody()
+#6 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#7 unknown(0): CGridView->renderSection()
+#8 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CGridView->run()
+#11 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(19): EstabelecimentoController->widget()
+#12 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#13 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#15 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#16 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): EstabelecimentoController->render()
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#18 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#20 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#21 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#22 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#24 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+in Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php (19)
+in Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php (33)
+in Z:\Programas\Xampp\htdocs\test_yii\index.php (13)
+2016/05/01 04:14:57 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.NomeCategoria" is not defined.' in Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 Z:\Programas\Xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('NomeCategoria')
+#1 Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code(1): CActiveRecord->__get('NomeCategoria')
+#2 Z:\Programas\Xampp\htdocs\yii\framework\base\CComponent.php(612): eval()
+#3 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CDataColumn.php(142): CComponent->evaluateExpression('$data->NomeCate...', Array)
+#4 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent(0)
+#5 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(154): CGridColumn->renderDataCellContent(0, Object(Estabelecimento))
+#6 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(638): CGridColumn->renderDataCell(0)
+#7 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(622): CGridView->renderDataCell(Object(CDataColumn), 0)
+#8 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(578): CGridView->renderTableRow(0)
+#9 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(488): CGridView->renderTableBody()
+#10 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#13 Z:\Programas\Xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#14 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#15 Z:\Programas\Xampp\htdocs\test_yii\protected\views\estabelecimento\listarEstabelecimentos.php(19): CBaseController->widget('zii.widgets.gri...', Array)
+#16 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(126): require('Z:\\Programas\\Xa...')
+#17 Z:\Programas\Xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('Z:\\Programas\\Xa...', Array, true)
+#18 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('Z:\\Programas\\Xa...', Array, true)
+#19 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#20 Z:\Programas\Xampp\htdocs\test_yii\protected\controllers\EstabelecimentoController.php(33): CController->render('listarEstabelec...', Array)
+#21 Z:\Programas\Xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#22 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#24 Z:\Programas\Xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#26 Z:\Programas\Xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#27 Z:\Programas\Xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 Z:\Programas\Xampp\htdocs\test_yii\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/test_yii/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:34:40 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\gerenciador-financeiro\protected\views\layouts\main.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): EstabelecimentoController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): EstabelecimentoController->endWidget()
+#5 C:\xampp\htdocs\gerenciador-financeiro\protected\views\layouts\column1.php(9): EstabelecimentoController->endContent()
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(784): EstabelecimentoController->renderFile()
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(19): EstabelecimentoController->render()
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionCadastrarEstabelecimento()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\layouts\main.php (33)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\layouts\column1.php (9)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php (19)
+2016/06/02 20:35:38 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\SiteController.php(56): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/index.php/site/contact
+in C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/02 20:35:48 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\SiteController.php(56): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/index.php/site/contact
+in C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/02 20:37:08 [error] [php] include(ContactForm.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\SiteController.php(56): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/index.php/site/contact
+in C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/02 20:42:47 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(18): EstabelecimentoController->widget()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#5 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(26): EstabelecimentoController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (65)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (237)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php (18)
+2016/06/02 20:43:56 [error] [exception.CException] exception 'CException' with message 'EstabelecimentoController cannot find the requested view "admin".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('admin', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:44:05 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(18): EstabelecimentoController->widget()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#5 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): EstabelecimentoController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (65)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (237)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php (18)
+2016/06/02 20:44:51 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): EstabelecimentoController->widget()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#5 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): EstabelecimentoController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (65)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (237)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php (14)
+2016/06/02 20:44:52 [error] [php] Undefined offset: 0 (C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): EstabelecimentoController->widget()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#5 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): EstabelecimentoController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (65)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (237)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php (14)
+2016/06/02 20:45:27 [error] [php] Undefined index: value (C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php:129)
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): EstabelecimentoController->widget()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): EstabelecimentoController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): EstabelecimentoController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): EstabelecimentoController->renderPartial()
+#5 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): EstabelecimentoController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): EstabelecimentoController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): EstabelecimentoController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): EstabelecimentoController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CWebApplication->run()
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (129)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php (237)
+in C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php (14)
+2016/06/02 20:46:30 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(8): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:47:02 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(11): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:47:27 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:49:35 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(131): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(174): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:49:36 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(131): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(174): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:49:56 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:50:26 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(27): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:50:27 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(14): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(27): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:51:15 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(28): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:51:16 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(28): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:55:50 [error] [exception.CException] exception 'CException' with message 'Alias "application.extension.tablesorter.Sorter" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(EstabelecimentoController), 'application.ext...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#3 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#8 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(28): CController->render('listarEstabelec...', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:55:57 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(28): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 20:58:31 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(16): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(29): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:01:05 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(29): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:01:06 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(29): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:05:28 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(28): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:05:30 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(141): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(15): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(28): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:08:26 [error] [exception.CException] exception 'CException' with message 'EstabelecimentoController cannot find the requested view "admin".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('admin', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:08:48 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(137): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(10): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:09:34 [error] [exception.CException] exception 'CException' with message 'Property "Sorter.keyField" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(42): CComponent->__set('keyField', '1')
+#1 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): Sorter->__set('keyField', '1')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(EstabelecimentoController), 'application.ext...', Array)
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(180): CBaseController->createWidget('application.ext...', Array)
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(11): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:09:49 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(137): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\gerenciador-financeiro\protected\extensions\tablesorter\Sorter.php(237): Sorter->genTable()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): Sorter->run()
+#4 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(11): CBaseController->widget('application.ext...', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#9 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(36): CController->render('listarEstabelec...', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:10:58 [error] [exception.CException] exception 'CException' with message 'Property "Estabelecimento.Categoria" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Categoria')
+#1 C:\xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code(1): CActiveRecord->__get('Categoria')
+#2 C:\xampp\htdocs\yii\framework\base\CComponent.php(612): eval()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CDataColumn.php(142): CComponent->evaluateExpression('$data->Categori...', Array)
+#4 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(231): CDataColumn->getDataCellContent(0)
+#5 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridColumn.php(154): CGridColumn->renderDataCellContent(0, Object(Estabelecimento))
+#6 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(638): CGridColumn->renderDataCell(0)
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(622): CGridView->renderDataCell(Object(CDataColumn), 0)
+#8 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(578): CGridView->renderTableRow(0)
+#9 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(488): CGridView->renderTableBody()
+#10 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#11 [internal function]: CBaseListView->renderSection(Array)
+#12 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#13 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(149): CBaseListView->renderContent()
+#14 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CBaseListView->run()
+#15 C:\xampp\htdocs\gerenciador-financeiro\protected\views\estabelecimento\listarEstabelecimentos.php(18): CBaseController->widget('zii.widgets.gri...', Array)
+#16 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('listarEstabelec...', Array, true)
+#20 C:\xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php(33): CController->render('listarEstabelec...', Array)
+#21 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): EstabelecimentoController->actionListarEstabelecimentos()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#24 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('listarEstabelec...')
+#26 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#27 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:18:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
