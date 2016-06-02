@@ -1,7 +1,23 @@
-<?php
+﻿<?php
 
 class SiteController extends Controller
 {
+	public function beforeAction($action) 
+	{
+		if( parent::beforeAction($action)) 
+		{
+			/* @var $cs CClientScript */
+			$baseUrl = Yii::app()->baseUrl; 
+			$cs = Yii::app()->clientScript;
+			/* @var $theme CTheme */
+			$cs->registerScriptFile($baseUrl . '/js/jquery.mask.js' );
+			$cs->registerScriptFile($baseUrl . '/js/jquery.min.js' );
+			return true;
+		}
+		
+		return false;
+	}
+	
 	/**
 	 * Declares class-based actions.
 	 */
@@ -31,8 +47,6 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
-	
-	
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -77,27 +91,32 @@ class SiteController extends Controller
 	/**
 	 * Displays the login page
 	 */
-	public function actionLogin()
+	 
+	public function actionNovoLogin()
 	{
-		$model=new LoginForm;
-
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+		if (isset($_POST['Pessoa']))
 		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
+			//CVarDumper::dump($_POST['Pessoa']);die;
+			$username = $_POST['Pessoa']['CPF'];
+			$password = $_POST['Pessoa']['Senha'];
+					
+			$identity = new UserIdentity($username,$password);
+			
+			if($identity->authenticate())
+			{
+				Yii::app()->user->login($identity);
+				Yii::app()->user->setFlash('success', "Você está logado!");
+				$this->redirect(array('disciplina/index'));
+				
+			}
+			else
+			{
+				Yii::app()->user->setFlash('error', "Não foi possível logar-se! Verifique as informações preenchidas!");
+				$this->redirect(array('site/novoLogin'));
+			}
 		}
-
-		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
-		}
-		// display the login form
-		$this->render('login',array('model'=>$model));
+		else
+			$this->render('novoLogin');
 	}
 
 	/**

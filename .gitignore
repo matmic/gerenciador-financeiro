@@ -1,0 +1,33 @@
+# Não excluir este arquivo. Ele serve para identificar quais arquivos não deve ser gravados
+# no repositório. 
+# Isso evita erros na preparação do ambiente.
+
+# Estes arquivos são ignorados seguindo o padrão do .gitignore do próprio git. Segue o link
+# https://github.com/github/gitignore
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+
+# Remove o index da pasta raiz. É incluso neste arquivo o local absoluto da instalção do Yii.
+# Caso o Yii tenha sido instalado em um diretório diferente do que a do repositório, então
+# ocorrerá erros no ambiente.
+/index.php
+/index-test.php
+
+# Ignorar arquivos Yiic
+yiic*
+
+# Ignorar arquivos padrões da pasta Data
+protected/data/schema.mysql.sql
+protected/data/schema.sqlite.sql
+
+# Ignorar pasta test
+protected/tests
+
+# Ignorar arquivos de bakup
+*.bak
+*~
+

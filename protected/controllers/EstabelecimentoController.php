@@ -2,6 +2,22 @@
 
 class EstabelecimentoController extends Controller
 {
+	public function beforeAction($action) 
+	{
+		if( parent::beforeAction($action)) 
+		{
+			/* @var $cs CClientScript */
+			$baseUrl = Yii::app()->baseUrl; 
+			$cs = Yii::app()->clientScript;
+			/* @var $theme CTheme */
+			$cs->registerScriptFile($baseUrl . '/js/jquery.mask.js' );
+			$cs->registerScriptFile($baseUrl . '/js/jquery.min.js' );
+			return true;
+		}
+		
+		return false;
+	}
+	
 	public function actionIndex()
 	{
 		$this->render('index');

@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Gerenciador Financeiro',
-	
+
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -20,6 +20,7 @@ return array(
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
+		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'123',
@@ -35,20 +36,21 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+			'loginUrl'=>array('site/novoLogin'),
 		),
 
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>false,
+			'caseSensitive'=>false,     
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		
 		),
-		
 		
 
 		// database settings are configured in database.php

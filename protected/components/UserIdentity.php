@@ -17,17 +17,28 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
+		$pessoa = Pessoa::model()->findByAttributes(array('CPFPessoa'=>$this->username));
+		if($pessoa === null)
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
+		else 
+			if($pessoa->SenhaPessoa!==md5($this->password))
+				$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else
+		{
+			$this->setState('CodPessoa', $pessoa->CodPessoa);
+			$this->setState('NomePessoa', $pessoa->NomePessoa);
+			
+			if ($pessoa->IndicadorProfessor == 'S')
+				$this->setState('IndicadorProfessor', $pessoa->IndicadorProfessor);
+			else
+				if ($pessoa->IndicadorFuncionario == 'S')
+					$this->setState('IndicadorFuncionario', $pessoa->IndicadorFuncionario);
+				else
+					$this->setState('IndicadorAluno', 'S');
+			
+			$this->setState('SaldoPessoa', $pessoa->SaldoPessoa);
 			$this->errorCode=self::ERROR_NONE;
+		}
 		return !$this->errorCode;
 	}
 }
