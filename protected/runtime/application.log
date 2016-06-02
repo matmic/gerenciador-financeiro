@@ -1203,3 +1203,215 @@ Stack trace:
 REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
 HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
 ---
+2016/06/02 21:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/
+---
+2016/06/02 21:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/
+---
+2016/06/02 21:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "novoLogin".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('novoLogin')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('novoLogin')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/novoLogin')
+#3 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gerenciador-financeiro/index.php/site/novoLogin
+HTTP_REFERER=http://localhost/gerenciador-financeiro/
+---
+2016/06/02 21:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pessoa/meuPerfil".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pessoa/meuPerfi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/index.php/pessoa/meuPerfil
+HTTP_REFERER=http://localhost/gerenciador-financeiro/
+---
+2016/06/02 21:51:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:51:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "novoLogin".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('novoLogin')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('novoLogin')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/novoLogin')
+#3 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gerenciador-financeiro/index.php/site/novoLogin
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pessoa/meuPerfil".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pessoa/meuPerfi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/index.php/pessoa/meuPerfil
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/listarEstabelecimentos
+---
+2016/06/02 21:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cadastrarEstabelescimento".' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('cadastrarEstabe...')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('cadastrarEstabe...')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('estabelecimento...')
+#3 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gerenciador-financeiro/estabelecimento/cadastrarEstabelescimento
+---
+2016/06/02 21:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 21:57:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 21:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 21:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 21:58:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 21:58:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 22:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 22:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 22:04:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 22:04:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 22:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.mask.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.mask....')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.mask.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
+2016/06/02 22:07:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.min.j...')
+#1 C:\xampp\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\gerenciador-financeiro\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gerenciador-financeiro/js/jquery.min.js
+HTTP_REFERER=http://localhost/gerenciador-financeiro/estabelecimento/cadastrarEstabelecimento
+---
