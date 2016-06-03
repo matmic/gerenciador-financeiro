@@ -1,4 +1,4 @@
-﻿<fieldset><legend>Categorias</legend>
+﻿<fieldset style="margin-top: -27.5px;"><legend>Categorias</legend>
 	<div id='divForm'>
 		<?php
 			/*//FORMULÁRIO
