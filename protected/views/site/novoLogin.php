@@ -8,7 +8,7 @@ div.form-login {
 	<legend>Login</legend>
 	<div class="form-login">
 		<?php
-			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("site/novoLogin"), 'POST', array());
+			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("site/login"), 'POST', array());
 			?>
 			<div class="row">
 			<div class="column medium-7" style="text-align: end;">

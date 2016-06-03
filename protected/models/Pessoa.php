@@ -35,7 +35,7 @@ class Pessoa extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('NomePessoa, CPFPessoa, EmailPessoa, GeneroPessoa, CodEndereco, TelefonePessoa, DataNascimentoPessoa, SenhaPessoa, SaldoPessoa, IndicadorExclusao', 'required'),
-			array('CodEndereco', 'numerical', 'integerOnly'=>true),
+			array('CodEndereco, CodEscolaridade', 'numerical', 'integerOnly'=>true),
 			array('NomePessoa, EmailPessoa', 'length', 'max'=>20),
 			array('CPFPessoa', 'length', 'max'=>11),
 			array('GeneroPessoa, IndicadorExclusao', 'length', 'max'=>1),
@@ -44,7 +44,7 @@ class Pessoa extends CActiveRecord
 			array('SaldoPessoa', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('CodPessoa, NomePessoa, CPFPessoa, EmailPessoa, GeneroPessoa, CodEndereco, TelefonePessoa, DataNascimentoPessoa, SenhaPessoa, SaldoPessoa, IndicadorExclusao', 'safe', 'on'=>'search'),
+			array('CodPessoa, NomePessoa, CPFPessoa, EmailPessoa, GeneroPessoa, CodEndereco, CodEscolaridade, TelefonePessoa, DataNascimentoPessoa, SenhaPessoa, SaldoPessoa, IndicadorExclusao', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,6 +56,8 @@ class Pessoa extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'Endereco' => array(self::HAS_ONE, 'Endereco', array('CodEndereco'=>'CodEnderecoPessoa')),
+			'Escolaridade'=>array(self::HAS_ONE, 'Escolaridade', array('CodEscolaridade'=>'CodEscolaridadeEscolaridade')),
 		);
 	}
 

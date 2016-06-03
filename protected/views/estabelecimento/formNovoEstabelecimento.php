@@ -1,25 +1,14 @@
-<fieldset>
+<fieldset><legend><?=$legend?></legend>
+	<div style="width: 58%; text-align: right;">
+		<?php
+			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("estabelecimento/cadastrar"), 'POST');
+			echo CHtml::activeHiddenField($estabelecimento, 'CodEstabelecimento');
+			echo CHtml::label('Nome do estabelecimento: ', 'nome');
+			echo CHtml::activeTextField($estabelecimento, 'NomeEstabelecimento', array('required'=>true));
+			echo "<br /><br />";
 
-<div style="width: 58%; text-align: right;">
-<?php
-	echo "<br>" . CHtml::beginForm('cadastrarEstabelecimento', 'POST');
-	echo CHtml::label('Nome do estabelecimento: ', false);
-	echo CHtml::textField('Estabelecimento[NomeEstabelecimento]', '');
-	echo "<br /><br />";
-	echo CHtml::label('Categoria: ', false);
-	
-	$this->widget('zii.widgets.jui.CJuiAutoComplete',array(
-		'name'=>'Estabelecimento[NomeCategoria]',
-		'source'=>array('site/autoCompleteCategoria'),
-		'options'=>array(
-			'minLength'=>'3',
-		),
-	));
-	echo "<br /><br />";
-?>
-</div>
-<?php
-	echo CHtml::submitButton('Enviar', array('style'=>'margin-left: 50%'));
-	echo CHtml::endForm() ;
-?>
+			echo CHtml::submitButton('Enviar', array('style'=>'margin-left: 50%'));
+			echo CHtml::endForm() ;
+		?>
+	</div>
 </fieldset>

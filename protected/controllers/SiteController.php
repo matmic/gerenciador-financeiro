@@ -92,7 +92,7 @@ class SiteController extends Controller
 	 * Displays the login page
 	 */
 	 
-	public function actionNovoLogin()
+	public function actionLogin()
 	{
 		if (isset($_POST['Pessoa']))
 		{
@@ -106,13 +106,13 @@ class SiteController extends Controller
 			{
 				Yii::app()->user->login($identity);
 				Yii::app()->user->setFlash('success', "Você está logado!");
-				$this->redirect(array('disciplina/index'));
+				$this->redirect(array('orcamento/index'));
 				
 			}
 			else
 			{
 				Yii::app()->user->setFlash('error', "Não foi possível logar-se! Verifique as informações preenchidas!");
-				$this->redirect(array('site/novoLogin'));
+				$this->redirect(array('site/Login'));
 			}
 		}
 		else

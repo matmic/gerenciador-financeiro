@@ -1,4 +1,4 @@
-<style>
+﻿<style>
 div.form-perfil {
     text-align: center;
 }
@@ -15,15 +15,9 @@ div.form-perfil {
 	<div class="form-perfil">
 		<?php
 			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("pessoa/meuPerfil"), 'POST', array());
-			if ($pessoa->isNewRecord)
-			{
-				echo CHtml::label('Você é um(a): ', 'label_categoria');
-				echo CHtml::radioButtonList('Pessoa[Indicador]', '', array(1=>'Aluno(a)', 2=>'Professor(a)'), array('required'=>true, 'separator' => " "));
-				echo "<br /><br />";
-			}
-			?>
-			<div class="row">
-				<div class="column medium-5" style="text-align: right; margin-right: 10px;">
+		?>
+		<div class="row">
+			<div class="column medium-5" style="text-align: right; margin-right: 10px;">
 				<?php
 					echo "<br />";
 					
@@ -54,15 +48,18 @@ div.form-perfil {
 							'showAnim' => 'slideDown',
 							'dateFormat'=>'dd/mm/yy',
 						),
-						'language' => 'pt',));
+						
+						'language' => 'pt',
+						'htmlOptions'=>array('required'=>true),
+					));
 					echo "<br />";
 					
 					echo CHtml::label('Escolaridade: ', 'label_escolaridade');
-					echo CHtml::activeDropDownList($pessoa, 'EscolaridadePessoa', $arrEscolaridade, array('empty'=>'Selecione uma escolaridade...', 'required'=>true, 'style'=>'margin-bottom: 8px;width: 173px; margin-top: 10px;'));
+					echo CHtml::activeDropDownList($pessoa, 'CodEscolaridade', $arrEscolaridade, array('empty'=>'Selecione uma escolaridade...', 'required'=>true, 'style'=>'margin-bottom: 8px;width: 173px; margin-top: 10px;'));
 					echo "<br />";
 				?>
-				</div>
-				<div class="column medium-4" style="text-align: right; margin-right: 10px;">
+			</div>
+			<div class="column medium-4" style="text-align: right; margin-right: 10px;">
 				<?php	
 					echo "<br /><br /><br />";
 				
@@ -81,12 +78,12 @@ div.form-perfil {
 					echo CHtml::passwordField('Pessoa[SenhaRepetida]', '', array('required'=> ($pessoa->isNewRecord ? true : false), 'maxlenght'=>14, 'style'=>'margin-bottom: 8px;'));
 					echo "<br /><br />";
 				?>
-				</div>
-				<div class="column medium-3"></div>
 			</div>
-			<?php
-				echo "<br />";
-				echo CHtml::submitButton(!Yii::app()->user->isGuest ? 'Atualizar Cadastro' : 'Abrir uma conta', array('class' => 'btn',));
+			<div class="column medium-3"></div>
+		</div>
+		<?php
+			echo "<br />";
+			echo CHtml::submitButton(!Yii::app()->user->isGuest ? 'Atualizar Cadastro' : 'Abrir uma conta', array('class' => 'btn',));
 		?>
 	</div>
 </fieldset>

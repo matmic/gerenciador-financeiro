@@ -34,7 +34,7 @@ class PessoaController extends Controller
 				$partesData = explode('-', $pessoa->DataNascimentoPessoa);
 				$data = $partesData[2]."/".$partesData[1]."/".$partesData[0];
 				
-				$endereco = Endereco::model()->findByPk($pessoa->CodEnderecoPessoa);
+				$endereco = Endereco::model()->findByPk($pessoa->CodEndereco);
 			}
 			else
 			{
@@ -83,52 +83,26 @@ class PessoaController extends Controller
 			}
 			
 			if ($pessoa->isNewRecord)
-			{
 				$pessoa->SaldoPessoa = 0;
-				if ($_POST['Pessoa']['Indicador'] == 1)
-				{
-					$pessoa->IndicadorFuncionario = 'N';
-					$pessoa->IndicadorProfessor = 'N';
-				}
-				else
-				{
-					$pessoa->IndicadorFuncionario = 'N';
-					$pessoa->IndicadorProfessor = 'S';
-				}
-			}
 						
-			$pessoa->IndicadorExcluido = 'N';
+			$pessoa->IndicadorExclusao = 'N';
+			$endereco->IndicadorExclusao = 'N';
 			
 			
 			if (!$temErro)
 			{
-				if($endereco->save())
-				{					
-					$pessoa->CodEnderecoPessoa = $endereco->CodEndereco;
-					
-					if($pessoa->save())
-					{						
-						if ($pessoa->isNewRecord)
-							Yii::app()->user->setFlash('success', "Cadastro realizado com sucesso!");
-						else
-							Yii::app()->user->setFlash('success', "Informações atualizadas com sucesso!");
-
-						$this->redirect(array('site/index'));
-					}
-					else
-					{
-						Yii::app()->user->setFlash('error', "Erro ao gravar PESSOA!");
-					}
-				}
+				$endereco->save();				
+				
+				$pessoa->CodEndereco = $endereco->CodEndereco;
+				
+				if($pessoa->save())				
+					Yii::app()->user->setFlash('success', "Informações salvas com sucesso!");
 				else
-				{
-					Yii::app()->user->setFlash('error', "Erro ao gravar ENDERECO!");
-				}				
+					Yii::app()->user->setFlash('error', "Não foi possível salvar as informações!");
 			}
 			else
-			{
 				Yii::app()->user->setFlash('error', "As senhas informadas são diferentes!");
-			}
+			
 			$this->redirect('meuPerfil');
 		}
 	}

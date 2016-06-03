@@ -1,21 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "categoria".
+ * This is the model class for table "escolaridade".
  *
- * The followings are the available columns in table 'categoria':
- * @property integer $CodCategoria
- * @property string $NomeCategoria
- * @property string $IndicadorExclusao
+ * The followings are the available columns in table 'escolaridade':
+ * @property integer $CodEscolaridade
+ * @property string $NomeEscolaridade
  */
-class Categoria extends CActiveRecord
+class Escolaridade extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'categoria';
+		return 'escolaridade';
 	}
 
 	/**
@@ -26,12 +25,11 @@ class Categoria extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('NomeCategoria, CodPessoa, IndicadorExclusao', 'required'),
-			array('NomeCategoria', 'length', 'max'=>50),
-			array('IndicadorExclusao', 'length', 'max'=>1),
+			array('NomeEscolaridade', 'required'),
+			array('NomeEscolaridade', 'length', 'max'=>50),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('CodCategoria, CodPessoa, NomeCategoria, IndicadorExclusao', 'safe', 'on'=>'search'),
+			array('CodEscolaridade, NomeEscolaridade', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,9 +50,8 @@ class Categoria extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'CodCategoria' => 'Cod Categoria',
-			'NomeCategoria' => 'Nome Categoria',
-			'IndicadorExclusao' => 'Indicador Exclusao',
+			'CodEscolaridade' => 'Cod Escolaridade',
+			'NomeEscolaridade' => 'Nome Escolaridade',
 		);
 	}
 
@@ -76,9 +73,8 @@ class Categoria extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('CodCategoria',$this->CodCategoria);
-		$criteria->compare('NomeCategoria',$this->NomeCategoria,true);
-		$criteria->compare('IndicadorExclusao',$this->IndicadorExclusao,true);
+		$criteria->compare('CodEscolaridade',$this->CodEscolaridade);
+		$criteria->compare('NomeEscolaridade',$this->NomeEscolaridade,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -89,7 +85,7 @@ class Categoria extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Categoria the static model class
+	 * @return Escolaridade the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

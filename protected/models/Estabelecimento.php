@@ -26,12 +26,12 @@ class Estabelecimento extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('NomeEstabelecimento, IndicadorExclusao', 'required'),
+			array('NomeEstabelecimento, CodPessoa, IndicadorExclusao', 'required'),
 			array('NomeEstabelecimento', 'length', 'max'=>50),
 			array('IndicadorExclusao', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('CodEstabelecimento, NomeEstabelecimento, IndicadorExclusao', 'safe', 'on'=>'search'),
+			array('CodEstabelecimento, CodPessoa, NomeEstabelecimento, IndicadorExclusao', 'safe', 'on'=>'search'),
 		);
 	}
 

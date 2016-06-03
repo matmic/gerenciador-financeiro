@@ -27,15 +27,6 @@ class UserIdentity extends CUserIdentity
 		{
 			$this->setState('CodPessoa', $pessoa->CodPessoa);
 			$this->setState('NomePessoa', $pessoa->NomePessoa);
-			
-			if ($pessoa->IndicadorProfessor == 'S')
-				$this->setState('IndicadorProfessor', $pessoa->IndicadorProfessor);
-			else
-				if ($pessoa->IndicadorFuncionario == 'S')
-					$this->setState('IndicadorFuncionario', $pessoa->IndicadorFuncionario);
-				else
-					$this->setState('IndicadorAluno', 'S');
-			
 			$this->setState('SaldoPessoa', $pessoa->SaldoPessoa);
 			$this->errorCode=self::ERROR_NONE;
 		}

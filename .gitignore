@@ -4,7 +4,7 @@
 
 # Estes arquivos são ignorados seguindo o padrão do .gitignore do próprio git. Segue o link
 # https://github.com/github/gitignore
-assets/*
+/assets/*
 !assets/.gitignore
 protected/runtime/*
 !protected/runtime/.gitignore

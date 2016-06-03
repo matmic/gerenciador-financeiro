@@ -46,17 +46,25 @@
 
 			$this->widget('zii.widgets.CMenu',array(
 				'items'=>array(
-					array('label'=>'ADMIN', 'items'=>array(
-						array('label'=>'Login', 'url'=>array('/site/novoLogin'), 'visible'=>Yii::app()->user->isGuest),
+					array('label'=>'ADMINISTRAÇÃO', 'items'=>array(
+						array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 						array('label'=>'Logout ('. (!isset(Yii::app()->user->NomePessoa) ? '' : Yii::app()->user->NomePessoa).')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
 						array('label'=>Yii::app()->user->isGuest ? 'Cadastrar' : 'Meu Perfil', 'url'=>array('/pessoa/meuPerfil')),
-						array('label'=>'Inserir Créditos', 'url'=>array('/pessoa/inserirCredito'), 'visible'=>isset(Yii::app()->user->IndicadorAluno)),
-						array('label'=>'Sacar Créditos', 'url'=>array('/pessoa/sacarCredito'), 'visible'=>isset(Yii::app()->user->IndicadorProfessor)),
 						),
 					),
-					array('label'=>'DISCIPLINAS', 'visible' => isset(Yii::app()->user->IndicadorProfessor), 'items'=>array(
-						array('label'=>'Minhas Disciplinas', 'url'=>array("/disciplina/minhasDisciplinas"), 'visible'=> isset(Yii::app()->user->IndicadorProfessor)),
-						array('label'=>'Cadastrar Disciplinas', 'url'=>array("/disciplina/viewOrNewDisciplina")),	
+					array('label'=>'RECEITAS E DESPESAS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
+						array('label'=>'Cadastrar Receita', 'url'=>array('/pessoa/inserirCredito')),
+						array('label'=>'Cadastrar Despesa', 'url'=>array('/pessoa/sacarCredito')),
+						),
+					),
+					array('label'=>'ESTABELECIMENTOS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
+						array('label'=>'Cadastrar Estabelecimento', 'url'=>array("/estabelecimento/cadastrar")),
+						array('label'=>'Editar Estabelecimentos', 'url'=>array("/estabelecimento/listar")),	
+						),		
+					),
+					array('label'=>'CATEGORIAS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
+						array('label'=>'Cadastrar Categoria', 'url'=>array("/categoria/cadastrar")),
+						array('label'=>'Editar Categorias', 'url'=>array("/categoria/listar")),	
 						),		
 					),
 				),

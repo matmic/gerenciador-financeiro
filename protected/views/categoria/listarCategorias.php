@@ -1,4 +1,4 @@
-<fieldset><legend>Estabelecimentos</legend>
+﻿<fieldset><legend>Categorias</legend>
 	<div id='divForm'>
 		<?php
 			/*//FORMULÁRIO
@@ -18,8 +18,8 @@
 			'dataProvider'=>$arr,
 			'columns'=>array(
 				array(
-					'name'=>'NomeEstabelecimento',
-					'header'=>'Nome do Estabelecimento',
+					'name'=>'NomeCategoria',
+					'header'=>'Categoria',
 				),
 				array
 				(
@@ -28,8 +28,8 @@
 					'template'=>'{update}{delete}',
 					'buttons'=>array(
 						'update' => array(
-							'url' => 'Yii::app()->createUrl("estabelecimento/cadastrar", array(
-								"CodEstabelecimento"=>$data->CodEstabelecimento,
+							'url' => 'Yii::app()->createUrl("categoria/cadastrar", array(
+								"CodCategoria"=>$data->CodCategoria,
 							))',
 							/*'click'=>"function(event){
 								$.ajax({
@@ -44,7 +44,7 @@
 							 }",*/
 						),
 						'delete'=>array(
-							'url'=>'Yii::app()->createUrl("estabelecimento/excluir", array("CodEstabelecimento"=>$data->CodEstabelecimento))',
+							'url'=>'Yii::app()->createUrl("categoria/excluir", array("CodCategoria"=>$data->CodCategoria))',
 						),
 					),
 				),
