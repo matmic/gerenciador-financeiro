@@ -35,12 +35,12 @@ class Orcamento extends CActiveRecord
 		return array(
 			array('CodPessoa, CodTipoOrcamento, ValorOrcamento, DataOrcamento, IndicadorPago, IndicadorExclusao', 'required'),
 			array('CodPessoa, CodTipoOrcamento, CodCategoria, CodEstabelecimento', 'numerical', 'integerOnly'=>true),
-			array('Descricao', 'length', 'max'=>50),
-			array('ValorOrcamento', 'length', 'max'=>6),
+			array('DescricaoOrcamento', 'length', 'max'=>50),
+			array('ValorOrcamento', 'length', 'max'=>7),
 			array('IndicadorPago, IndicadorExclusao', 'length', 'max'=>1),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('CodOrcamento, CodPessoa, CodTipoOrcamento, Descricao, CodCategoria, CodEstabelecimento, ValorOrcamento, DataOrcamento, IndicadorPago, IndicadorExclusao', 'safe', 'on'=>'search'),
+			array('CodOrcamento, CodPessoa, CodTipoOrcamento, DescricaoOrcamento, CodCategoria, CodEstabelecimento, ValorOrcamento, DataOrcamento, IndicadorPago, IndicadorExclusao', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -51,10 +51,36 @@ class Orcamento extends CActiveRecord
 	{
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
+		// BELONGS_TO: UM CAMPO DO MODELO É CHAVE PRIMÁRIA DO OUTRO
+		// HAS_ONE: O OUTRO MODELO TEM UMA CHAVE QUE APONTA PARA A CHAVE PRIMÁRIA DESTE
 		return array(
+			'Categoria' => array(self::BELONGS_TO, 'Categoria', 'CodCategoria', 'on'=>"Categoria.IndicadorExclusao = 'N'"),
+			'Estabelecimento' => array(self::BELONGS_TO, 'Estabelecimento', 'CodEstabelecimento', 'on'=>"Estabelecimento.IndicadorExclusao = 'N'"),
+			'Pessoa'=> array(self::BELONGS_TO, 'Pessoa', 'CodPessoa'),
 		);
 	}
-
+	
+	public function beforeSave()
+	{
+		$partesData = explode('/', $this->DataOrcamento);
+		$date = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+		$this->DataOrcamento = $date;
+		
+		$this->ValorOrcamento = str_replace(",",".",$this->ValorOrcamento);
+		
+		return parent::beforeSave();
+	}
+	
+	public function afterFind()
+	{
+		$partesData = explode('-', $this->DataOrcamento);
+		$this->DataOrcamento = $partesData[2]."/".$partesData[1]."/".$partesData[0];
+		
+		$this->ValorOrcamento = str_replace(".",",",$this->ValorOrcamento);
+		
+		return parent::afterFind();
+	}
+	
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */

@@ -1,3 +1,34 @@
+.fieldInfo {
+    color: #000000;
+    background-color: #F2F9FF !important;
+    border: 1px solid #006699;
+}
+.fieldInfo legend {
+    color: #006699;
+	font-weight: bold;
+}
+
+.fieldInfo.comIcone {
+    padding-left: 50px;
+    background: url(visual_ufrgs/icone_informacao.png) no-repeat #F2F9FF;
+    background-position: 5px 50%;
+    min-height: 30px;
+}
+
+.moldura{
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	border-radius: 7px;
+	margin: 5px 10px;
+	padding: 10px;
+}
+
+.fieldAlerta {
+	color: #B14400;
+	background-color: #FEFEDD !important;
+	border: 1px solid #B14400;
+}
+
 .btn {
 	border-radius: 7px;
     padding: 4px;
@@ -12,7 +43,7 @@ fieldset{
     padding: 10px;
 	margin-left: 206px;
 	margin-top: -12px;
-    width: 85.5%;
+    width: 83%;
 }
 
 .flash {

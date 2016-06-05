@@ -36,12 +36,12 @@ class Pessoa extends CActiveRecord
 		return array(
 			array('NomePessoa, CPFPessoa, EmailPessoa, GeneroPessoa, CodEndereco, TelefonePessoa, DataNascimentoPessoa, SenhaPessoa, SaldoPessoa, IndicadorExclusao', 'required'),
 			array('CodEndereco, CodEscolaridade', 'numerical', 'integerOnly'=>true),
-			array('NomePessoa, EmailPessoa', 'length', 'max'=>20),
-			array('CPFPessoa', 'length', 'max'=>11),
+			array('CPFPessoa', 'length', 'max'=>14),
 			array('GeneroPessoa, IndicadorExclusao', 'length', 'max'=>1),
-			array('TelefonePessoa', 'length', 'max'=>13),
+			array('TelefonePessoa', 'length', 'max'=>14),
 			array('SenhaPessoa', 'length', 'max'=>32),
-			array('SaldoPessoa', 'length', 'max'=>10),
+			array('NomePessoa, EmailPessoa', 'length', 'max'=>50),
+			array('SaldoPessoa', 'length', 'max'=>15),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('CodPessoa, NomePessoa, CPFPessoa, EmailPessoa, GeneroPessoa, CodEndereco, CodEscolaridade, TelefonePessoa, DataNascimentoPessoa, SenhaPessoa, SaldoPessoa, IndicadorExclusao', 'safe', 'on'=>'search'),
@@ -59,6 +59,31 @@ class Pessoa extends CActiveRecord
 			'Endereco' => array(self::HAS_ONE, 'Endereco', array('CodEndereco'=>'CodEnderecoPessoa')),
 			'Escolaridade'=>array(self::HAS_ONE, 'Escolaridade', array('CodEscolaridade'=>'CodEscolaridadeEscolaridade')),
 		);
+	}
+	
+	public function beforeSave()
+	{
+		$partesData = explode('/', $this->DataNascimentoPessoa);
+		$date = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+		$this->DataNascimentoPessoa = $date;
+		
+		$this->SaldoPessoa = str_replace(".","",$this->SaldoPessoa);
+		$this->SaldoPessoa = str_replace(",",".",$this->SaldoPessoa);
+		$this->CPFPessoa = str_replace(array(".", "-"),"",$this->CPFPessoa);
+		//$this->CPFPessoa = str_replace("-","",$this->CPFPessoa);
+		$this->TelefonePessoa = str_replace("-","",$this->TelefonePessoa);
+		
+		return parent::beforeSave();
+	}
+	
+	public function afterFind()
+	{
+		$partesData = explode('-', $this->DataNascimentoPessoa);
+		$this->DataNascimentoPessoa = $partesData[2]."/".$partesData[1]."/".$partesData[0];
+		
+		$this->SaldoPessoa = str_replace(".",",",$this->SaldoPessoa);
+		
+		return parent::afterFind();
 	}
 
 	/**

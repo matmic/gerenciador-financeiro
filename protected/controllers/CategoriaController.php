@@ -1,6 +1,6 @@
 ﻿<?php
 
-class CategoriaController extends Controller
+class CategoriaController extends BaseController
 {
 	public function beforeAction($action) 
 	{

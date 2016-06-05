@@ -17,7 +17,7 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
-		$pessoa = Pessoa::model()->findByAttributes(array('CPFPessoa'=>$this->username));
+		$pessoa = Pessoa::model()->findByAttributes(array('CPFPessoa'=>str_replace(array(".", "-"),"",$this->username)));
 		if($pessoa === null)
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
 		else 

@@ -59,14 +59,16 @@ body
     padding: 10px;
 	padding-top: 0px;
 	float:left;
-	position:fixed;
+	position:absolute;
 	width:180px;
 	margin-top: 20px;
+	padding-bottom: -50px;
 }
 
 #mainmenu ul
 {
-	padding:6px 20px 5px 20px;
+	padding:1px  1px 4px;
+	
 	margin-top:20px;
 }
 
@@ -77,7 +79,7 @@ body
 
 #mainmenu span
 {
-	position: fixed;
+	position: absolute;
 	font-weight: bold;
 	margin-top: 10px;
 	color: #C9E0ED;
@@ -87,7 +89,7 @@ body
 {
 	color:#ffffff;
 	background-color:transparent;
-	font-size:12px;
+	font-size:13.9px;
 	font-weight:bold;
 	text-decoration:none;
 	padding:5px 8px;

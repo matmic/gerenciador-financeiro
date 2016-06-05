@@ -8,17 +8,17 @@ div.form-login {
 	<legend>Login</legend>
 	<div class="form-login">
 		<?php
-			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("site/login"), 'POST', array());
+			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("pessoa/login"), 'POST', array());
 			?>
 			<div class="row">
 			<div class="column medium-7" style="text-align: end;">
 			<?php
 				echo CHtml::label('CPF: ', 'label_cpf');
-				echo CHtml::textField('Pessoa[CPF]', '', array('maxlength'=>11, 'style'=>'margin-bottom: 8px;'));
+				echo CHtml::textField('Pessoa[CPF]', '', array('maxlength'=>14, 'style'=>'margin-bottom: 8px;'));
 				echo "<br />";
 				
 				echo CHtml::label('Senha: ', 'label_senha');
-				echo CHtml::passwordField('Pessoa[Senha]', '', array('maxlength'=>14));
+				echo CHtml::passwordField('Pessoa[Senha]', '', array('maxlength'=>12));
 				echo "<br /><br />";
 			?>
 			</div>

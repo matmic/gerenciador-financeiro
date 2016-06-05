@@ -1,6 +1,6 @@
 ﻿<?php
 
-class PessoaController extends Controller
+class PessoaController extends BaseController
 {
 	public function beforeAction($action) 
 	{
@@ -12,6 +12,7 @@ class PessoaController extends Controller
 			/* @var $theme CTheme */
 			$cs->registerScriptFile($baseUrl . '/js/jquery.mask.js' );
 			$cs->registerScriptFile($baseUrl . '/js/jquery.min.js' );
+			$cs->registerScriptFile($baseUrl . '/js/jquery.maskMoney.js' );
 			return true;
 		}
 		
@@ -27,13 +28,9 @@ class PessoaController extends Controller
 	{
 		if (!isset($_POST['Pessoa']))
 		{
-			$data = '';
 			if (!Yii::app()->user->isGuest)
 			{
 				$pessoa = Pessoa::model()->findByPk(Yii::app()->user->CodPessoa);
-				$partesData = explode('-', $pessoa->DataNascimentoPessoa);
-				$data = $partesData[2]."/".$partesData[1]."/".$partesData[0];
-				
 				$endereco = Endereco::model()->findByPk($pessoa->CodEndereco);
 			}
 			else
@@ -48,7 +45,7 @@ class PessoaController extends Controller
 			$estado = Estado::model()->findAll();
 			$arrEstado = CHtml::listData($estado, 'CodEstado', 'UF');
 			
-			$this->render('meuPerfil', array('data'=>$data, 'pessoa'=>$pessoa, 'endereco'=>$endereco, 'arrEscolaridade'=>$arrEscolaridade, 'arrEstado'=>$arrEstado));
+			$this->render('meuPerfil', array('pessoa'=>$pessoa, 'endereco'=>$endereco, 'arrEscolaridade'=>$arrEscolaridade, 'arrEstado'=>$arrEstado));
 		}
 		else
 		{
@@ -69,11 +66,6 @@ class PessoaController extends Controller
 			$pessoa->attributes = $_POST['Pessoa'];
 			$endereco->attributes = $_POST['Endereco'];
 			
-			// Tratamento do campo data
-			$partesData = explode('/', $_POST['Pessoa']['DataNascimentoPessoa']);
-			$date = $partesData[2]."-".$partesData[1]."-".$partesData[0];
-			$pessoa->DataNascimentoPessoa = $date;
-			
 			if (!empty($_POST['Pessoa']['NovaSenha']) && !empty($_POST['Pessoa']['SenhaRepetida']))
 			{
 				if ($_POST['Pessoa']['NovaSenha'] == $_POST['Pessoa']['SenhaRepetida'])
@@ -82,12 +74,14 @@ class PessoaController extends Controller
 					$temErro = true;
 			}
 			
+			$isNew = false;
 			if ($pessoa->isNewRecord)
-				$pessoa->SaldoPessoa = 0;
-						
+				$isNew = true;	
+			
 			$pessoa->IndicadorExclusao = 'N';
 			$endereco->IndicadorExclusao = 'N';
 			
+			//CVarDumper::dump($pessoa,10,true);die;
 			
 			if (!$temErro)
 			{
@@ -103,40 +97,44 @@ class PessoaController extends Controller
 			else
 				Yii::app()->user->setFlash('error', "As senhas informadas são diferentes!");
 			
-			$this->redirect('meuPerfil');
-		}
-	}
-	
-	public function actionInserirCredito()
-	{
-		if (isset($_POST['Pessoa']))
-		{
-			$pessoa = Pessoa::model()->findByPk(Yii::app()->user->CodPessoa);
-			$pessoa->SaldoPessoa += $_POST['Pessoa']['Depositar'];
-			$pessoa->save();
-			$this->render('index');
-		}
-		else
-			$this->render('formInserirCredito');
-	}
-	
-	public function actionSacarCredito()
-	{
-		if (isset($_POST['Pessoa']))
-		{
-			$pessoa = Pessoa::model()->findByPk(Yii::app()->user->CodPessoa);
-			$qtdSacar = $_POST['Pessoa']['Sacar'];
-			
-			if ($pessoa->SaldoPessoa < $qtdSacar)
-				$pessoa->SaldoPessoa -= $pessoa->SaldoPessoa;
+			if ($isNew)
+				$this->redirect(array('pessoa/login'));
 			else
-				$pessoa->SaldoPessoa -= $_POST['Pessoa']['Sacar'];
+				$this->redirect(array('orcamento/index'));
+		}
+	}
+	
+	public function actionLogin()
+	{
+		if (isset($_POST['Pessoa']))
+		{
+			//CVarDumper::dump($_POST['Pessoa']);die;
+			$username = $_POST['Pessoa']['CPF'];
+			$password = $_POST['Pessoa']['Senha'];
+					
+			$identity = new UserIdentity($username,$password);
 			
-			$pessoa->save();
-			$this->render('index');
+			if($identity->authenticate())
+			{
+				Yii::app()->user->login($identity);
+				Yii::app()->user->setFlash('success', "Você está logado!");
+				$this->redirect(array('orcamento/index'));
+				
+			}
+			else
+			{
+				Yii::app()->user->setFlash('error', "Não foi possível logar-se! Verifique as informações preenchidas!");
+				$this->redirect(array('pessoa/login'));
+			}
 		}
 		else
-			$this->render('formSacarCredito');
+			$this->render('novoLogin');
+	}
+	
+	public function actionLogout()
+	{
+		Yii::app()->user->logout();
+		$this->redirect(Yii::app()->homeUrl);
 	}
 
 	// Uncomment the following methods and override them if needed

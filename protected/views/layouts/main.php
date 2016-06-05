@@ -28,7 +28,20 @@
 
 <div class="container" id="page">
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo">
+			<?php 
+				echo CHtml::encode(Yii::app()->name);
+				if (!Yii::app()->user->isGuest)
+				{
+					if (Yii::app()->user->SaldoPessoa >= 0)
+						$msg = "<span style='color: #006600;'>" . Yii::app()->user->SaldoPessoa . '</span>';
+					else
+						$msg = "<span style='color: red;'>" . Yii::app()->user->SaldoPessoa . '</span>';
+					echo "<p style='font-size: 14px;'>Bem-vindo <b>" . Yii::app()->user->NomePessoa . "</b>, seu saldo atual é de R$ " . $msg;
+				}
+			
+			?>
+		</div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
@@ -47,24 +60,33 @@
 			$this->widget('zii.widgets.CMenu',array(
 				'items'=>array(
 					array('label'=>'ADMINISTRAÇÃO', 'items'=>array(
-						array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-						array('label'=>'Logout ('. (!isset(Yii::app()->user->NomePessoa) ? '' : Yii::app()->user->NomePessoa).')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
+						array('label'=>'Login', 'url'=>array('/pessoa/login'), 'visible'=>Yii::app()->user->isGuest),
+						array('label'=>'Logout ('. (!isset(Yii::app()->user->NomePessoa) ? '' : Yii::app()->user->NomePessoa).')', 'url'=>array('/pessoa/logout'), 'visible'=>!Yii::app()->user->isGuest),
 						array('label'=>Yii::app()->user->isGuest ? 'Cadastrar' : 'Meu Perfil', 'url'=>array('/pessoa/meuPerfil')),
 						),
 					),
 					array('label'=>'RECEITAS E DESPESAS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
-						array('label'=>'Cadastrar Receita', 'url'=>array('/pessoa/inserirCredito')),
-						array('label'=>'Cadastrar Despesa', 'url'=>array('/pessoa/sacarCredito')),
+						array('label'=>'Cadastrar Receita', 'url'=>array('/orcamento/cadastrar', 'tipo'=>'1')),
+						array('label'=>'Listar Receitas', 'url'=>array('/orcamento/listar', 'tipo'=>'1')),
+						array('label'=>'Cadastrar Despesa', 'url'=>array('/orcamento/cadastrar', 'tipo'=>'2')),
+						array('label'=>'Listar Despesas', 'url'=>array('/orcamento/listar', 'tipo'=>'2')),
 						),
 					),
 					array('label'=>'ESTABELECIMENTOS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
-						array('label'=>'Cadastrar Estabelecimento', 'url'=>array("/estabelecimento/cadastrar")),
-						array('label'=>'Editar Estabelecimentos', 'url'=>array("/estabelecimento/listar")),	
+						array('label'=>'Cadastrar', 'url'=>array("/estabelecimento/cadastrar")),
+						array('label'=>'Editar', 'url'=>array("/estabelecimento/listar")),	
 						),		
 					),
 					array('label'=>'CATEGORIAS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
-						array('label'=>'Cadastrar Categoria', 'url'=>array("/categoria/cadastrar")),
-						array('label'=>'Editar Categorias', 'url'=>array("/categoria/listar")),	
+						array('label'=>'Cadastrar', 'url'=>array("/categoria/cadastrar")),
+						array('label'=>'Editar', 'url'=>array("/categoria/listar")),	
+						),		
+					),
+					array('label'=>'GRÁFICOS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
+						array('label'=>'Gráfico de Receitas', 'url'=>array("/categoria/cadastrar")),
+						array('label'=>'Gráfico de Despesas', 'url'=>array("/categoria/listar")),
+						array('label'=>'Filtragem de Receitas', 'url'=>array("/categoria/cadastrar")),
+						array('label'=>'Filtragem de Despesas', 'url'=>array("/categoria/listar")),							
 						),		
 					),
 				),

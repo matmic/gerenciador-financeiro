@@ -1,6 +1,6 @@
 ﻿<?php
 
-class EstabelecimentoController extends Controller
+class EstabelecimentoController extends BaseController
 {
 	public function beforeAction($action) 
 	{

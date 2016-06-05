@@ -17,6 +17,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.controllers.*',
 	),
 
 	'modules'=>array(
@@ -37,7 +38,7 @@ return array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
-			'loginUrl'=>array('site/novoLogin'),
+			'loginUrl'=>array('pessoa/login'),
 		),
 
 		// uncomment the following to enable URLs in path-format
