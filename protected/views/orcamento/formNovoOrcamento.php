@@ -60,7 +60,7 @@
               ),
               'htmlOptions'=>array(
                 //'style'=>'width:95.5%; padding-right: 25px;',
-                'placeholder'=>'Digite a categoria',
+                'placeholder'=>'Digite o estabelecimento',
               ),
             ));
             echo CHtml::activeHiddenField($orcamento,'CodEstabelecimento',array('id'=>'iptCodEstabelecimento'));

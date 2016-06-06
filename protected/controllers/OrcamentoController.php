@@ -265,6 +265,57 @@ class OrcamentoController extends BaseController
 			
 		$this->redirect('listar?tipo=' . $tipo);
 	}
+	
+	public function actionGrafico()
+	{
+		if (isset($_POST['Grafico']))
+		{
+			$tipo = $_POST['Grafico']['CodTipoOrcamento'];	
+			$criteria = new CDbCriteria;
+			$criteria->addCondition("t.CodPessoa = " . Yii::app()->user->CodPessoa);
+			$criteria->addCondition("t.IndicadorExclusao = 'N'");
+			
+			if ($_POST['Grafico']['IndicadorPago'] == '1')
+				$criteria->addCondition("t.IndicadorPago = '1'");
+			
+			$criteria->addCondition("t.CodTipoOrcamento = " . $tipo);
+			
+			$partesData = explode('/', $_POST['Grafico']['DataInicio']);
+			$dataInicio = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+			$partesData = explode('/', $_POST['Grafico']['DataFim']);
+			$dataFim = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+			
+			//CVarDumper::dump($dataInicio, 10, true);die;
+			$criteria->addCondition("t.DataOrcamento >= '" . $dataInicio . "' AND t.DataOrcamento <= '" . $dataFim . "'");
+			
+			
+			$orcamentos = Orcamento::model()->with(array('Categoria'))->findAll($criteria);
+			
+			$arrayTmp = array();
+			$arrayCategorias = array();
+			foreach ($orcamentos as $arr)
+			{
+				if ($arr->Categoria == NULL)
+					$arrayTmp['Sem Categoria'][] = $arr->ValorOrcamento;
+				else
+					$arrayTmp[$arr->Categoria->NomeCategoria][] = $arr->ValorOrcamento;
+			}
+			
+			foreach ($arrayTmp as $key => $value)
+				$arrayCategorias[] = array($key, array_sum($value));
+				
+				$this->render('grafico', array('arr'=>$arrayCategorias));
+		}
+		else
+		{
+			if ($_GET['tipo'] == '1')
+				$str = 'receitas';
+			else
+				$str = 'despesas';
+			
+			$this->render('formGrafico', array('tipo'=>$_GET['tipo'], 'str'=>$str));
+		}
+	}
 
 	// Uncomment the following methods and override them if needed
 	/*

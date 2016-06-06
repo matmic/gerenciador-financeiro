@@ -34,9 +34,9 @@
 				if (!Yii::app()->user->isGuest)
 				{
 					if (Yii::app()->user->SaldoPessoa >= 0)
-						$msg = "<span style='color: #006600;'>" . Yii::app()->user->SaldoPessoa . '</span>';
+						$msg = "<span style='color: #006600;'><b>" . Yii::app()->user->SaldoPessoa . '</b></span>';
 					else
-						$msg = "<span style='color: red;'>" . Yii::app()->user->SaldoPessoa . '</span>';
+						$msg = "<span style='color: red;'><b>" . Yii::app()->user->SaldoPessoa . '</b></span>';
 					echo "<p style='font-size: 14px;'>Bem-vindo <b>" . Yii::app()->user->NomePessoa . "</b>, seu saldo atual é de R$ " . $msg;
 				}
 			
@@ -83,10 +83,10 @@
 						),		
 					),
 					array('label'=>'GRÁFICOS', 'visible' => !Yii::app()->user->isGuest, 'items'=>array(
-						array('label'=>'Gráfico de Receitas', 'url'=>array("/categoria/cadastrar")),
-						array('label'=>'Gráfico de Despesas', 'url'=>array("/categoria/listar")),
-						array('label'=>'Filtragem de Receitas', 'url'=>array("/categoria/cadastrar")),
-						array('label'=>'Filtragem de Despesas', 'url'=>array("/categoria/listar")),							
+						array('label'=>'Receitas por Categoria', 'url'=>array("/orcamento/grafico?tipo=1")),
+						array('label'=>'Despesas por Categoria', 'url'=>array("/orcamento/grafico?tipo=2")),
+						//array('label'=>'Filtragem de Receitas', 'url'=>array("/categoria/cadastrar")),
+						//array('label'=>'Filtragem de Despesas', 'url'=>array("/categoria/listar")),							
 						),		
 					),
 				),
