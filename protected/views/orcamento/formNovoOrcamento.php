@@ -78,4 +78,12 @@
 
 <script>
 	$('#Orcamento_ValorOrcamento').maskMoney({prefix:'R$ ', allowNegative: false, thousands:'', decimal:',', affixesStay: false});
+	
+	$('#Orcamento_NomeEstabelecimento').change(function(){
+		$('#iptCodEstabelecimento').val('');
+	});
+	
+	$('#Orcamento_NomeCategoria').change(function(){
+		$('#iptCodCategoria').val('');
+	});
 </script>

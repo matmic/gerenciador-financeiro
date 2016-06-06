@@ -4982,3 +4982,216 @@ Stack trace:
 REQUEST_URI=/gerenciador-financeiro/orcamento/grafico
 in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (278)
 in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:14:58 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:14:58 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:14:58 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:14:59 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:14:59 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:14:59 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:16:46 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:16:46 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:16:46 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:19:08 [warning] [application] Failed to set unsafe attribute "CodEstabelecimento" of "Estabelecimento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\EstabelecimentoController.php (50)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:04 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:04 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:04 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:15 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:15 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:15 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:47 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:47 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:54:47 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:55:55 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:55:55 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:55:55 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:56:41 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:56:41 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:56:41 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:57:28 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:57:28 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:57:28 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:13 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:13 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:13 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:20 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:20 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:20 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:25 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:25 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:25 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:57 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:57 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 13:58:57 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:00:03 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:00:03 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:00:03 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:00:43 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:00:43 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:00:43 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:47:04 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:47:04 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:47:04 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:47:44 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:47:44 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 14:47:44 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 22:56:04 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 22:56:04 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 22:56:04 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:01:00 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:01:00 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:01:00 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:01:09 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:01:09 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:01:09 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:02:16 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:02:16 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:02:16 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:03:21 [warning] [application] Failed to set unsafe attribute "CodPessoa" of "Pessoa".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\PessoaController.php (66)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:03:21 [warning] [application] Failed to set unsafe attribute "NovaSenha" of "Pessoa".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\PessoaController.php (66)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:03:21 [warning] [application] Failed to set unsafe attribute "SenhaRepetida" of "Pessoa".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\PessoaController.php (66)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:03:21 [warning] [application] Failed to set unsafe attribute "CodEndereco" of "Endereco".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\PessoaController.php (67)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:12:59 [warning] [application] Failed to set unsafe attribute "CodOrcamento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:12:59 [warning] [application] Failed to set unsafe attribute "NomeCategoria" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
+2016/06/06 23:12:59 [warning] [application] Failed to set unsafe attribute "NomeEstabelecimento" of "Orcamento".
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\protected\controllers\OrcamentoController.php (51)
+in Z:\Programas\Xampp\htdocs\gerenciador-financeiro\index.php (13)
