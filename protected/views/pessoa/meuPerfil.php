@@ -60,7 +60,7 @@ div.form-perfil {
 					}
 					
 					echo CHtml::label('Escolaridade*: ', 'label_escolaridade');
-					echo CHtml::activeDropDownList($pessoa, 'CodEscolaridade', $arrEscolaridade, array('empty'=>'Selecione uma escolaridade...', 'required'=>true, 'style'=>'margin-bottom: 8px;width: 173px; margin-top: 10px; margin-right: -9px;'));
+					echo CHtml::activeDropDownList($pessoa, 'CodEscolaridade', $arrEscolaridade, array('empty'=>'Selecione uma escolaridade...', 'required'=>true, 'style'=>'margin-bottom: 8px;width: 173px; margin-top: 10px;'));
 					echo "<br />";
 					
 					echo CHtml::label('Telefone*: ', 'label_telefone');

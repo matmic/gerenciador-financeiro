@@ -35,7 +35,7 @@ class Orcamento extends CActiveRecord
 		return array(
 			array('CodPessoa, CodTipoOrcamento, ValorOrcamento, DataOrcamento, IndicadorPago, IndicadorExclusao', 'required'),
 			array('CodPessoa, CodTipoOrcamento, CodCategoria, CodEstabelecimento', 'numerical', 'integerOnly'=>true),
-			array('DescricaoOrcamento', 'length', 'max'=>50),
+			array('Descricao', 'length', 'max'=>50),
 			array('ValorOrcamento', 'length', 'max'=>7),
 			array('IndicadorPago, IndicadorExclusao', 'length', 'max'=>1),
 			// The following rule is used by search().

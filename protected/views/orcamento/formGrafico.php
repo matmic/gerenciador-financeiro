@@ -2,7 +2,7 @@
 	<?php
 		echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/grafico"), 'POST');
 		echo CHtml::hiddenField('Grafico[CodTipoOrcamento]', $tipo);
-		echo CHtml::label('Data de início: ', '', array());
+		echo CHtml::label('Data de início*: ', '', array());
 		$this->widget('zii.widgets.jui.CJuiDatePicker', array(
 			'name' => 'Grafico[DataInicio]',
 			'value'=>'',
@@ -12,11 +12,14 @@
 			),
 			
 			'language' => 'pt',
-			'htmlOptions'=>array('required'=>true),
+			'htmlOptions'=>array(
+				'required'=>true,
+				'size'=>10,
+			),
 		));
 		echo "<br /><br />";
 		
-		echo CHtml::label('Data final: ', '', array());
+		echo CHtml::label('Data final*: ', '', array());
 		$this->widget('zii.widgets.jui.CJuiDatePicker', array(
 			'name' => 'Grafico[DataFim]',
 			'value'=>'',
@@ -26,7 +29,10 @@
 			),
 			
 			'language' => 'pt',
-			'htmlOptions'=>array('required'=>true),
+			'htmlOptions'=>array(
+				'required'=>true,
+				'size'=>10,
+			),
 		));
 		echo "<br /><br />";
 		

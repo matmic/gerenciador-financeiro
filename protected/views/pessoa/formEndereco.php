@@ -26,7 +26,7 @@
 	echo "<br />";
 
 	echo CHtml::label('Estado*: ', 'label_estado');
-	echo CHtml::activeDropDownList($endereco, 'CodEstado', $arrEstado, array('empty'=>'Selecione um estado...', 'required'=>true, 'style'=>'margin-bottom: 8px;width: 173px; margin-right: -9px;'));
+	echo CHtml::activeDropDownList($endereco, 'CodEstado', $arrEstado, array('empty'=>'Selecione um estado...', 'required'=>true, 'style'=>'margin-bottom: 8px;width: 173px;'));
 	echo "<br />";
 ?>
 <script>

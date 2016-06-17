@@ -1,23 +1,12 @@
 <fieldset><legend><?=$legend?></legend>
-	<div id='divForm'>
-		<?php
-			/*//FORMULÁRIO
-			echo "<br>" . CHtml::beginForm(Yii::app()->createAbsoluteUrl("estabelecimento/cadastrar"), 'POST');
-			echo CHtml::activeHiddenField($estabelecimento, 'CodEstabelecimento');
-			echo CHtml::label('Nome do estabelecimento: ', 'nome');
-			echo CHtml::activeTextField($estabelecimento, 'NomeEstabelecimento');
-			echo "<br /><br />";
-	
-			echo CHtml::submitButton('Enviar');
-			echo CHtml::endForm() ;
-			//FIM DO FORM*/
-		?>
-	</div>
+	<!-- 
 	<fieldset class="moldura fieldInfo" style="clear:none;"><legend style='font-size:18px;'>Informações</legend>
 		<p style='font-size:14px;'>Para editar ou excluir <?=strtolower($legend)?> use os botões da coluna 'Operações'!</p>
 	</fieldset>
-	
+	-->
 	<?php
+		$this->renderPartial('filtroOrcamento', array('tipo'=>$_GET['tipo'], 'params'=>$params));
+		
 		$this->widget('zii.widgets.grid.CGridView', array(
 			'dataProvider'=>$arr,
 			'htmlOptions'=>array('style'=>'text-align:center;'),
@@ -28,7 +17,7 @@
 					'htmlOptions'=>array('style'=>'text-align:center;'),
 				),
 				array(
-					'name'=>'DescricaoOrcamento',
+					'name'=>'Descricao',
 					'header'=>'Descrição',
 					'htmlOptions'=>array('style'=>'text-align:center;'),
 				),

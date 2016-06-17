@@ -1,12 +1,11 @@
-<fieldset><legend><?=$legend?></legend>
+﻿<fieldset><legend><?=$legend?></legend>
 	<div style="width: 58%; text-align: right;">
 		<?php
-			$data = '';
 			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/cadastrar"), 'POST');
 			echo CHtml::activeHiddenField($orcamento, 'CodOrcamento');
 			echo CHtml::activeHiddenField($orcamento, 'CodTipoOrcamento');
 			
-			echo CHtml::label('Data: ', '', array());
+			echo CHtml::label('Data*: ', '', array('style'=>'padding-left: -20px;'));
 				$this->widget('zii.widgets.jui.CJuiDatePicker', array(
 					'name' => 'Orcamento[DataOrcamento]',
 					'value'=>$orcamento->DataOrcamento,
@@ -14,17 +13,19 @@
 						'showAnim' => 'slideDown',
 						'dateFormat'=>'dd/mm/yy',
 					),
-					
 					'language' => 'pt',
-					'htmlOptions'=>array('required'=>true),
+					'htmlOptions'=>array(
+						'required'=>true,
+						'size'=>10,
+					),
 				));
 			echo "<br /><br />";
 			
-			echo CHtml::label('Descricao: ', 'descricao');
-			echo CHtml::activeTextField($orcamento, 'DescricaoOrcamento', array('required'=>true, 'maxlength'=>50));
+			echo CHtml::label('Descricao*: ', 'descricao');
+			echo CHtml::activeTextField($orcamento, 'Descricao', array('required'=>true, 'maxlength'=>50));
 			echo "<br /><br />";
 			
-			echo CHtml::label('Valor: ', 'valor');
+			echo CHtml::label('Valor*: ', 'valor');
 			echo CHtml::activeTextField($orcamento, 'ValorOrcamento', array('required'=>true, 'maxlength'=>10));
 			echo "<br /><br />";
 			

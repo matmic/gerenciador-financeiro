@@ -213,8 +213,45 @@ class OrcamentoController extends BaseController
 			),
         );
 		
+		$params = array();
+		$params['DataInicio'] = '';
+		$params['DataFim'] = '';
+		$params['CodEstabelecimento'] = '';
+		$params['NomeEstabelecimento'] = '';
+		$params['CodCategoria'] = '';
+		$params['NomeCategoria'] = '';
+		
+		if (isset($_POST['Filtro']))
+		{
+			//CVarDumper::dump($_POST['Filtro'], 10, true);die;
+			Yii::app()->user->setFlash('success', 'Filtro(s) aplicado(s) com sucesso!');
+			if (!empty($_POST['Filtro']['CodCategoria']))
+			{
+				$criteria->addCondition("t.CodCategoria = " . $_POST['Filtro']['CodCategoria']);
+				$params['CodCategoria'] = $_POST['Filtro']['CodCategoria'];
+				$params['NomeCategoria'] = $_POST['Filtro']['NomeCategoria'];
+			}
+			
+			if (!empty($_POST['Filtro']['CodEstabelecimento']))
+			{
+				$criteria->addCondition("t.CodEstabelecimento = " . $_POST['Filtro']['CodEstabelecimento']);
+				$params['CodEstabelecimento'] = $_POST['Filtro']['CodEstabelecimento'];
+				$params['NomeEstabelecimento'] = $_POST['Filtro']['NomeEstabelecimento'];
+			}
+			
+			if (!empty($_POST['Filtro']['DataInicio']))
+			{
+				$partesData = explode('/', $_POST['Filtro']['DataInicio']);
+				$dataInicio = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+				$partesData = explode('/', $_POST['Filtro']['DataFim']);
+				$dataFim = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+				$criteria->addCondition("t.DataOrcamento >= '" . $dataInicio . "' AND t.DataOrcamento <= '" . $dataFim . "'");
+				$params['DataInicio'] = $_POST['Filtro']['DataInicio'];
+				$params['DataFim'] = $_POST['Filtro']['DataFim'];
+			}
+		}
+		
 		$orcamentos = Orcamento::model()->with(array('Estabelecimento', 'Categoria'))->findAll($criteria);
-		$orcamento = new Orcamento;
 		$arrayOrcamentos=new CArrayDataProvider($orcamentos, array(
 			'keyField'=>'CodCategoria',
 			'pagination'=>array(
@@ -223,7 +260,7 @@ class OrcamentoController extends BaseController
 			'sort'=>$sort,
 		));
 		
-		$this->render('listarOrcamentos', array('orcamento'=>$orcamento, 'arr'=>$arrayOrcamentos, 'legend'=>$legend, 'header'=>$header));
+		$this->render('listarOrcamentos', array('arr'=>$arrayOrcamentos, 'legend'=>$legend, 'header'=>$header, 'params'=>$params));
 	}
 	
 	public function actionExcluir()
