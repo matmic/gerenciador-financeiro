@@ -220,9 +220,11 @@ class OrcamentoController extends BaseController
 		$params['NomeEstabelecimento'] = '';
 		$params['CodCategoria'] = '';
 		$params['NomeCategoria'] = '';
+		$params['IndicadorPago'] = '';
 		
 		if (isset($_POST['Filtro']))
 		{
+			
 			//CVarDumper::dump($_POST['Filtro'], 10, true);die;
 			Yii::app()->user->setFlash('success', 'Filtro(s) aplicado(s) com sucesso!');
 			if (!empty($_POST['Filtro']['CodCategoria']))
@@ -248,6 +250,23 @@ class OrcamentoController extends BaseController
 				$criteria->addCondition("t.DataOrcamento >= '" . $dataInicio . "' AND t.DataOrcamento <= '" . $dataFim . "'");
 				$params['DataInicio'] = $_POST['Filtro']['DataInicio'];
 				$params['DataFim'] = $_POST['Filtro']['DataFim'];
+			}
+			
+			if (!empty($_POST['Filtro']['IndicadorPago']))
+			{
+				if ($_POST['Filtro']['IndicadorPago'] == '1')
+				{
+					$criteria->addCondition("t.IndicadorPago = 1");
+					$params['IndicadorPago'] = 1;
+				}
+				else
+					if ($_POST['Filtro']['IndicadorPago'] == '2')
+					{
+						$criteria->addCondition("t.IndicadorPago = 0");
+						$params['IndicadorPago'] = 2;
+					}
+					else
+						$params['IndicadorPago'] = 3;
 			}
 		}
 		

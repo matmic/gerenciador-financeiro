@@ -10,6 +10,7 @@
 !protected/runtime/.gitignore
 protected/data/*.db
 themes/classic/views/
+/protected/runtime/application.log
 
 # Remove o index da pasta raiz. É incluso neste arquivo o local absoluto da instalção do Yii.
 # Caso o Yii tenha sido instalado em um diretório diferente do que a do repositório, então

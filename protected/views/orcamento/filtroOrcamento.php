@@ -1,4 +1,4 @@
-﻿<fieldset class="moldura" style="background-color: #fff; clear:none; width: 41.5%;"><legend style='font-size:16px;'>Filtrar</legend>
+﻿<fieldset class="moldura" style="background-color: #fff; clear:none; width: 550px"><legend style='font-size:16px;'>Filtrar</legend>
 	<?php
 		echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/listar?tipo=". $tipo), 'POST', array('id'=>'form-filtro'));
 		
@@ -54,7 +54,7 @@
 			'language' => 'pt',
 		));
 
-		echo CHtml::label('Data final: ', '', array('style'=>'margin-left: 117px;'));
+		echo CHtml::label('Data final: ', '', array('style'=>'margin-left: 85px;'));
 		$this->widget('zii.widgets.jui.CJuiDatePicker', array(
 			'name' => 'Filtro[DataFim]',
 			'value'=>$params['DataFim'],
@@ -67,10 +67,28 @@
 			),
 			'language' => 'pt',
 		));
+		
 		echo "<br /><br />";
+		
+		if ($_GET['tipo'] == 1)
+			$str = 'receitas';
+		else
+			$str = 'despesas';
+		
+		echo CHtml::radioButtonList('Filtro[IndicadorPago]', $params['IndicadorPago'], array(
+			1=>($_GET['tipo'] == 1 ? 'Somente receitas recebidas' : 'Somente despesas pagas'), 
+			2=>($_GET['tipo'] == 1 ? 'Somente receitas a receber' : 'Somente despesas a pagar'),
+			3=>'Todas',
+		),
+		array(
+			'style'=>'text-align: center;', 
+			'required'=>true, 
+			'separator' => "<br />",
+		));
+		
+		echo "<br />";
 		echo CHtml::button('Enviar', array('onClick'=>'validar()', 'style'=>'margin-left: 45%;'));
 		echo CHtml::endForm();
-		echo "<br /><br />";
 	?>
 </fieldset>
 <script>
@@ -98,6 +116,7 @@
 	
 	function validar()
 	{
+		var hasError = false;
 		if ($('#Filtro_DataInicio').val().length !== 0)
 		{
 			var DataInicio = $("#Filtro_DataInicio").val();
@@ -105,9 +124,11 @@
 
 			if (DataInicio > DataFim) {
 				alert('A data inicial deve ser anterior ou igual à data final!');
+				hasError = true;
 			}
 		}
 		
-		$('#form-filtro').submit();
+		if (!hasError)
+			$('#form-filtro').submit();
 	}
 </script>

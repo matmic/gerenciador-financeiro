@@ -22,7 +22,7 @@
 			echo "<br /><br />";
 			
 			echo CHtml::label('Descricao*: ', 'descricao');
-			echo CHtml::activeTextField($orcamento, 'Descricao', array('required'=>true, 'maxlength'=>50));
+			echo CHtml::activeTextField($orcamento, 'DescricaoOrcamento', array('required'=>true, 'maxlength'=>50));
 			echo "<br /><br />";
 			
 			echo CHtml::label('Valor*: ', 'valor');

@@ -20,7 +20,7 @@
 					'htmlOptions'=>array('style'=>'text-align:center;'),
 				),
 				array(
-					'name'=>'Descricao',
+					'name'=>'DescricaoOrcamento',
 					'header'=>'Descrição',
 					'htmlOptions'=>array('style'=>'text-align:center;'),
 				),
