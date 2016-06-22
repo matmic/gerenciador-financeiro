@@ -5,13 +5,15 @@
 	</fieldset>
 	-->
 	<?php
+		$today = date("Y/m/d");
+		echo $today;
 		$this->renderPartial('filtroOrcamento', array('tipo'=>$_GET['tipo'], 'params'=>$params));
 		
 		$this->widget('zii.widgets.grid.CGridView', array(
 			'dataProvider'=>$arr,
-			/*'rowCssClassExpression' => '
-				( !empty($data["SituacaoEspecial"]) ? " rowEspecial " :  ( $row%2 ? $this->rowCssClass[1] : $this->rowCssClass[0] ) )
-			',*/
+			'rowCssClassExpression' => '
+				( $data["DataOrcamento"] < ' . $today . ' && $data["IndicadorPago"] == "0" ? " rowEspecial " :  ( $row%2 ? $this->rowCssClass[1] : $this->rowCssClass[0] ) )
+			',
 			'htmlOptions'=>array('style'=>'text-align:center;'),
 			'columns'=>array(
 				array(
