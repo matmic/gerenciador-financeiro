@@ -5,8 +5,7 @@
 	</fieldset>
 	-->
 	<?php
-		$today = date("Y/m/d");
-		echo $today;
+		$today = date("Y-m-d");
 		$this->renderPartial('filtroOrcamento', array('tipo'=>$_GET['tipo'], 'params'=>$params));
 		
 		$this->widget('zii.widgets.grid.CGridView', array(

@@ -3,6 +3,11 @@
 	text-decoration: none;
 }
 
+.rowEspecial:hover
+{
+	background-color: yellow !important;
+}
+
 .fieldInfo {
     color: #000000;
     background-color: #F2F9FF !important;
