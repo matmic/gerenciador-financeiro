@@ -1,4 +1,4 @@
-﻿<fieldset class="moldura" style="background-color: #fff; clear:none; width: 550px"><legend style='font-size:16px;'>Filtrar</legend>
+﻿<fieldset class="moldura" style="background-color: #fff; clear:none; width: 650px"><legend style='font-size:16px;'>Filtrar</legend>
 	<?php
 		echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/listar?tipo=". $tipo), 'POST', array('id'=>'form-filtro'));
 		
@@ -54,7 +54,7 @@
 			'language' => 'pt',
 		));
 
-		echo CHtml::label('Data final: ', '', array('style'=>'margin-left: 85px;'));
+		echo CHtml::label('Data final: ', '', array('style'=>'margin-left: 116px;'));
 		$this->widget('zii.widgets.jui.CJuiDatePicker', array(
 			'name' => 'Filtro[DataFim]',
 			'value'=>$params['DataFim'],
