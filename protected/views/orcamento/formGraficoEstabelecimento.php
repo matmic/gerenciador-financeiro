@@ -1,6 +1,6 @@
-<fieldset><legend>Relatório</legend>
+﻿<fieldset style="margin-top: -27.5px;"><legend>Relatório</legend>
 	<?php
-		echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/graficoCategoria"), 'POST');
+		echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/graficoEstabelecimento"), 'POST');
 		echo CHtml::hiddenField('Grafico[CodTipoOrcamento]', $tipo);
 		echo CHtml::label('Data de início*: ', '', array());
 		$this->widget('zii.widgets.jui.CJuiDatePicker', array(

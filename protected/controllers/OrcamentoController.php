@@ -322,7 +322,7 @@ class OrcamentoController extends BaseController
 		$this->redirect('listar?tipo=' . $tipo);
 	}
 	
-	public function actionGrafico()
+	public function actionGraficoCategoria()
 	{
 		if (isset($_POST['Grafico']))
 		{
@@ -360,6 +360,9 @@ class OrcamentoController extends BaseController
 			foreach ($arrayTmp as $key => $value)
 				$arrayCategorias[] = array($key, array_sum($value));
 				
+			if (empty($arrayCategorias))
+				Yii::app()->user->setFlash('error', "Não foram encontradas informações válidas para a sua busca!");	
+				
 				$this->render('grafico', array('arr'=>$arrayCategorias));
 		}
 		else
@@ -370,6 +373,59 @@ class OrcamentoController extends BaseController
 				$str = 'despesas';
 			
 			$this->render('formGrafico', array('tipo'=>$_GET['tipo'], 'str'=>$str));
+		}
+	}
+	
+	public function actionGraficoEstabelecimento()
+	{
+		if (isset($_POST['Grafico']))
+		{
+			$tipo = $_POST['Grafico']['CodTipoOrcamento'];	
+			$criteria = new CDbCriteria;
+			$criteria->addCondition("t.CodPessoa = " . Yii::app()->user->CodPessoa);
+			$criteria->addCondition("t.IndicadorExclusao = 'N'");
+			
+			if ($_POST['Grafico']['IndicadorPago'] == '1')
+				$criteria->addCondition("t.IndicadorPago = '1'");
+			
+			$criteria->addCondition("t.CodTipoOrcamento = " . $tipo);
+			
+			$partesData = explode('/', $_POST['Grafico']['DataInicio']);
+			$dataInicio = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+			$partesData = explode('/', $_POST['Grafico']['DataFim']);
+			$dataFim = $partesData[2]."-".$partesData[1]."-".$partesData[0];
+			
+			//CVarDumper::dump($dataInicio, 10, true);die;
+			$criteria->addCondition("t.DataOrcamento >= '" . $dataInicio . "' AND t.DataOrcamento <= '" . $dataFim . "'");
+			
+			$orcamentos = Orcamento::model()->with(array('Estabelecimento'))->findAll($criteria);
+			
+			$arrayTmp = array();
+			$arrEstabelecimentos = array();
+			foreach ($orcamentos as $arr)
+			{
+				if ($arr->Estabelecimento == NULL)
+					$arrayTmp['Sem Estabelecimento'][] = $arr->ValorOrcamento;
+				else
+					$arrayTmp[$arr->Estabelecimento->NomeEstabelecimento][] = $arr->ValorOrcamento;
+			}
+			
+			foreach ($arrayTmp as $key => $value)
+				$arrEstabelecimentos[] = array($key, array_sum($value));
+				
+			if (empty($arrEstabelecimentos))
+				Yii::app()->user->setFlash('error', "Não foram encontradas informações válidas para a sua busca!");	
+				
+				$this->render('grafico', array('arr'=>$arrEstabelecimentos));
+		}
+		else
+		{
+			if ($_GET['tipo'] == '1')
+				$str = 'receitas';
+			else
+				$str = 'despesas';
+			
+			$this->render('formGraficoEstabelecimento', array('tipo'=>$_GET['tipo'], 'str'=>$str));
 		}
 	}
 

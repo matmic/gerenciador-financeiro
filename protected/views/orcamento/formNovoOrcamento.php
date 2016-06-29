@@ -1,4 +1,4 @@
-﻿<fieldset><legend><?=$legend?></legend>
+﻿<fieldset style="margin-top: -27.5px;"><legend><?=$legend?></legend>
 	<div style="width: 58%; text-align: right;">
 		<?php
 			echo CHtml::beginForm(Yii::app()->createAbsoluteUrl("orcamento/cadastrar"), 'POST');

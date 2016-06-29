@@ -1300,7 +1300,7 @@ var arrayMin = Highcharts.arrayMin,
 
     // Set default options
     defaultPlotOptions.boxplot = merge(defaultPlotOptions.column, {
-        fillColor: '#FFFFFF',
+        fillColor: '#F7F7F7',
         lineWidth: 1,
         //medianColor: null,
         medianWidth: 2,

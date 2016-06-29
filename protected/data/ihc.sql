@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 28-Jun-2016 às 23:08
+-- Generation Time: 29-Jun-2016 às 21:55
 -- Versão do servidor: 10.1.13-MariaDB
--- PHP Version: 5.5.34
+-- PHP Version: 5.6.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -165,16 +165,16 @@ CREATE TABLE `orcamento` (
 
 CREATE TABLE `pessoa` (
   `CodPessoa` int(2) NOT NULL,
-  `NomePessoa` varchar(50) NOT NULL,
+  `NomePessoa` varchar(20) NOT NULL,
   `CPFPessoa` varchar(11) NOT NULL,
-  `EmailPessoa` varchar(50) NOT NULL,
+  `EmailPessoa` varchar(20) NOT NULL,
   `GeneroPessoa` varchar(1) NOT NULL,
   `CodEndereco` int(2) NOT NULL,
   `CodEscolaridade` int(2) NOT NULL,
   `TelefonePessoa` varchar(13) NOT NULL,
   `DataNascimentoPessoa` date NOT NULL,
   `SenhaPessoa` varchar(32) NOT NULL,
-  `SaldoPessoa` decimal(9,2) NOT NULL,
+  `SaldoPessoa` decimal(10,2) NOT NULL,
   `IndicadorExclusao` varchar(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 

@@ -53,9 +53,9 @@ div.form-perfil {
 					
 					if ($pessoa->isNewRecord)
 					{
+						echo "<br />";
 						echo CHtml::label('Saldo inicial da conta*: ', 'label_saldo');
 						echo CHtml::activeTextField($pessoa, 'SaldoPessoa', array('required'=>true, 'maxlenght'=>15, 'style'=>'margin-bottom: 8px;'));
-						echo "<br />";
 						echo "<br />";
 					}
 					
